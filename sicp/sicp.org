@@ -1,0 +1,465 @@
+* Intro
+
+** Intro 1                                                           :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       25de5b45-b269-4019-8ad8-4006a19c04d3
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is the essence of computer science and why is that a bad name?
+
+*** Answer
+
+Computer science studies imperative knowledge, knowledge about processes. Computers are merely the tools used and it is more related to something like engineering or magic! than science.
+
+** Intro 2                                                           :drill:
+SCHEDULED: <2020-08-20 Thu>
+:PROPERTIES:
+:ID:       4bc77ec9-d602-418a-8bdd-eaea04c6e691
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:35]
+:END:
+
+Where do processes come from? How is that related to programming?
+
+*** Answer
+
+From partially understood human thought and experiences of which a computer program is but a model. We are always expanding our understanding of the processes, permanently struggling in an effort to expand our horizons. A "completed" piece only fits in a bigger puzzle with which we struggle further.
+
+
+* Building Abstractions with Procedures
+
+** Intro
+
+*** Abstractions 1                                                  :drill:
+SCHEDULED: <2020-08-22 Sat>
+:PROPERTIES:
+:ID:       b9d010df-e885-4c8e-8b10-bb58bd1ed368
+:DRILL_LAST_INTERVAL: 27.733
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:35]
+:END:
+
+What is the relationship between processes, programs, and programming languages?
+
+**** Answer
+
+	Computational processes are abstract beings that manipulate abstract objects called data. We conjure and direct these spirits creating computer programs written in arcane programming languages.
+
+*** Abstractions 2                                                    :drill:
+SCHEDULED: <2020-08-22 Sat>
+:PROPERTIES:
+:ID:       7e2e3655-c1b1-4c7e-b386-b89557c08f2e
+:DRILL_LAST_INTERVAL: 27.733
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:35]
+:END:
+
+Why Lisp?
+
+**** Answer
+
+	Mainly because Lisp's definition of processes (procedures), can themselves be manipulated as Lisp data.
+
+
+** 1.1 The Elements of Programming
+
+*** Intro
+
+**** Elements 1                                                    :drill:
+    SCHEDULED: <2020-08-24 Mon>
+    :PROPERTIES:
+    :ID:       8fdc3257-89af-4940-86ab-47c8de174cae
+    :DRILL_LAST_INTERVAL: 29.8459
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.667
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:35]
+    :END:
+
+What are three mechanisms languages provide for creating complex ideas?
+
+***** Answer
+
+- Primitive expressions
+- Means of combination
+- Means of abstraction
+
+**** Elements 2                                                    :drill:
+SCHEDULED: <2020-08-22 Sat>
+    :PROPERTIES:
+    :ID:       06fd5f31-217d-4d96-9995-ed039cd3568f
+    :DRILL_LAST_INTERVAL: 27.733
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.667
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:35]
+    :END:
+
+What are the two kinds of elements in programming?
+
+***** Answer
+
+- Procedures
+- Data
+
+*** 1.1.2 Naming and the Environment
+
+**** Naming and Environment 1                                      :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       d4c9d469-f31b-45ed-b975-e73e58d50d5a
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is an environment?
+
+***** Answer
+The memory space where the name-value associations are stored.
+
+*** 1.1.3 Evaluating Combinations
+
+**** Combinations 1                                                :drill:
+SCHEDULED: <2020-08-20 Thu>
+:PROPERTIES:
+:ID:       d11f3a1c-bd4b-4423-97a1-b2f239830a79
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What are combinations and how are they evaluated?
+
+***** Answer
+
+Combinations are the most basic method for combining different expressions. The interpreter evaluates all subexpressions and then applies the procedure, the leftmost value (prefix notation), to the other subexpressions.
+
+**** Combinations 2                                                :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       97af9cc9-9ca3-4b46-aa15-780605b1dda4
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+Are definitions combinations as well?
+
+***** Answer
+
+Definitions, along with some other expressions, are "special forms" because their evaluation is different from that of combinations.
+
+**** Combinations 3                                                :drill:
+SCHEDULED: <2020-08-23 Sun>
+:PROPERTIES:
+:ID:       5780d3d8-4db9-43d4-9acc-746f7b108818
+:DRILL_LAST_INTERVAL: 28.8368
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is special about combination evaluation? How would it look visually?
+
+***** Answer
+
+    That it's recursive in nature. To evaluate an expression all subexpressions must be evaluated first, to do that, it must call itself. The value of the expressions are then "percolated upwards", this is called tree accumulation.
+
+*** 1.1.5 The Substitution Model For Procedure Evaluation
+
+**** Substitution Model 1                                          :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       16a71afc-b987-4f6f-af25-e79f14b4f1a0
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is the substitution model?
+
+***** Answer
+
+It is a mental model (incomplete) of how procedures are evaluated. Wherein to evaluate a procedure, the formal parameters are replaced by the corresponding arguments.
+
+**** Substitution Model 2                                          :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       900711f0-7dc5-4280-a01b-557672f4f70b
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+How does normal order differ from applicative order evaluation?
+
+***** Answer
+
+In normal order evaluation, argument evaluation is deferred until there are only primitve procedures (all formal parameters have been replaced). Applicative order evaluation works by evaluating all arguments right after replacing the formal parameters.
+
+*** 1.1.8 Procedures as Black-Box Abstractions
+
+**** Black-box 1                                                   :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       7fc7bc58-d000-4a33-9e7d-409b730cf0cd
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is procedural abstraction?
+
+***** Answer
+
+A form of abstraction where you use procedures as "black-boxes", meaning that you understand what they do but do not care how they do it (implementation).
+
+**** Black-box 2                                                   :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       7f4fe026-4749-4af7-97ca-dda08457510f
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+What is scope? How do procedures affect the scope of variables?
+
+***** Answer
+
+Scope is the set of expressions for which a binding defines a name. When a procedure is defined it binds the names of its formal parameters to the context of the function (local scope), these are called "bound variables", while all other names are "free variables".
+
+**** Black-box 3                                                   :drill:
+SCHEDULED: <2020-08-25 Tue>
+:PROPERTIES:
+:ID:       181d2f90-7558-4271-985a-61241a8c5d38
+:DRILL_LAST_INTERVAL: 30.8932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 11:36]
+:END:
+
+How are the names of free variables resolved?
+
+***** Answer
+
+The bindings of any free variables are searched in the enclosing function or functions. This method of name resolution is called *lexical scoping* (also static scoping). There is another way of resolving free variable bindings called *dynamic scoping* which works by looking up the bindings in the calling function or functions.
+
+
+** 1.2 Procedures and the Processes they Generate
+
+*** 1.2.1 Linear Recursion and Iteration
+
+**** Linear Recursion & Iteration 1                                :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       fc23c25f-c571-409f-9c6b-cb34cf5988c1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:33]
+:END:
+
+What are the main characteristics of a recursive process?
+
+***** Answer
+
+A recursxive process expands, by building a chain of *deferred operations*, and then contracts. The interpreter keeps track of these operations by using a specialized data structure called a /stack/.
+
+**** Linear Recursion & Iteration 2                                  :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       c5777506-413b-4d6f-ae36-d8de9d64ad4a
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:39]
+:END:
+
+What are the main characteristics of an iterative process?
+
+***** Answer
+
+An iterative process never expands or contracts (constant space), it evolves by modifying a fixed number of values called *state variables*, these values are all that is needed for the interpreter to resume the process (unlike with a recursive process involves a chain of operations).
+
+**** Linear Recursion & Iteration 3                                :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       892cb671-b7d0-4355-a8ae-a269625b5d3f
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:37]
+:END:
+
+How can a recursive process be linear? An iterative process?
+
+***** Answer
+
+A recursive process is linear when the amount of information (operations) to track grows linearly with the input. An iterative process is linear when the number of steps to complete the computation grows linearly with the input.
+
+**** Linear Recursion & Iteration 4                                :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       837fb4ea-a57a-4441-908e-eb14f4fa5c70
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:39]
+:END:
+
+What is the difference between  a recursive procedure and a recursive process?
+
+***** Answer
+
+A recursive procedure is simply a procedure that calls itself, it may be part of a recursive or an iterative process.
+
+**** Linear Recursion & Iteration 5                                :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       8655860a-164e-4be4-b684-401d70326b26
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:37]
+:END:
+
+How do recursive procedures differ between Scheme and other languages like Python? What is tail-recursion and how is it related to tail call optimization?
+
+***** Answer
+
+In some languages the amount of memory needed for any recursive procedure, even if part of an iterative process, grows with the number of procedure calls. Scheme solves this by implementing *taill call optimization*. TCO  works by identifyng *tail recursive* functions, functions whose last operation is a function call (meaning there is no chain of deferred operations), and not using more memory for each procedure call (not allocating a new stack frame). This makes it trivial to describe iteration using syntactically recursive procedures but has some disadvantages (losing the stack trace for debugging).
+
+Not Tail Recursive
+#+begin_src scheme
+  (define (fact n)
+    (if (< n 2)
+        1
+        (* n (fact (- n 1)))))
+#+end_src
+
+Tail Recursive
+#+begin_src scheme
+  (define (fact n)
+    (define (tail-fact acc count)
+      (if (= count n)
+          (* acc count)
+          (tail-fact (* acc count)
+                     (+ count 1))))
+    (tail-fact 1 1))
+#+end_src
+
+***  1.2.2 Tree Recursion
+
+**** Tree Recursion 1
+
+What is a tree recursive process and what is its pattern of growth?
+
+***** Answer
+
+A *tree recursive process* is a process which branches off into two distinct recursive processes in every step of the computation. The number of steps required grows exponentially (number of leaves) while the space grows linearly (max. depth) with the input.
+
+**** Tree Recursion 2
+
+Why are tree recursive processes so inefficient? What is a technique to counteract this problem?
+
+***** Answer
+
+Tree recursive processes are inefficient because they do a lot of redundant computation. *Memoization* is a technique whereby the program constructs a table of values as they are computed. A procedure will then check if the result has already been computed, therefore avoiding any redundant computation.
+
+*** 1.2.3 Orders of Growth
